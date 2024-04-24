@@ -1,6 +1,5 @@
 #importamos la funcion sqrt de la libreria de math
 from math import sqrt
-sqrt(100)
 
 #Solicitamos entradas al usuario y las almacenamos en sus respectivas variables
 #Entradas eje x
