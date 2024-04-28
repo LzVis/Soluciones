@@ -1,6 +1,6 @@
-MetrosCuadrados = int(input("Introduzca cantidad de metros cuadrados del proyecto "))
+MetrosCuadrados = float(input("Introduzca cantidad de metros cuadrados del proyecto "))
 Costo = 1.7
-Profundidad = int(input("Introduzca la profundidas de la operacion "))
+Profundidad = float(input("Introduzca la profundidas de la operacion "))
 
 if Profundidad>10:
     Costo = Costo *1.5
