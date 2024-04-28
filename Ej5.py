@@ -18,4 +18,3 @@ elif DiaDeSemana == 7:
 #Ya por ultimo usamos un else, debido que si ninguno de los casos arriba sucede que se ejecute el codigo del else
 else:
     print("No coicide con ningun dia")
-    

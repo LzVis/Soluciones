@@ -39,4 +39,3 @@ if Area == 0:
           print("Una linea no tiene Area!")
 else:
      print(f"El area del triangulo es {Area}")
-

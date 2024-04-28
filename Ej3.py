@@ -11,5 +11,3 @@ elif DatoACalcular=="altura":
 #Como es la ultima opcion observar que no evalua si es false o true.
 else:
     print("no se selecciono ninguna de las 2 opciones ejecute nuevamente")
-    
-    
