@@ -1,4 +1,4 @@
-tiempo = float(input("ingrese el tiempo en segundos "))
+tiempo = float(input("ingrese el tiempo en segundos ")) #Aca establecemos que la variable ingresada sea del tipo flotante(decimal) con  float(valor)
 DatoACalcular = input("Escriba el dato que desee calcular. \naltura \nvelocidad final\n")
 if DatoACalcular=="velocidad final": #Mediante la sentencia if le preguntamos si la declaracion es True y en caso de ser True, ejecutara lo que esta indexado 
     velocidadFinal = 9.81*tiempo
