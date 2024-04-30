@@ -9,7 +9,7 @@ else:
     Aprobacion = False
     
     
-if Edad>18 and Edad<100:
+if Edad>=18 and Edad<60:
     if Antiguedad>8:
         print("Cumple con los años de antiguedad")
     if Turno=="noche":
@@ -19,7 +19,7 @@ if Edad>18 and Edad<100:
     if Aprobacion:
         print("Usted tiene la aprobacion")
     if Antiguedad>8 and Aprobacion:
-        Bono = Bono + DiasTrabajadosExtra * 150000
+        Bono = Bono + DiasTrabajadosExtra * 60000
         print(f"El bono a entregar es de {Bono}")
     else:
         print("Usted no califica")
